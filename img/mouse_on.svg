@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 83.49569 83.49569">
+  <defs>
+    <radialGradient id="未命名的渐变_21" data-name="未命名的渐变 21" cx="41.74785" cy="41.74785" r="41.74785" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fc0"/>
+      <stop offset="0.0308" stop-color="#fc0" stop-opacity="0.96097"/>
+      <stop offset="0.30931" stop-color="#fc0" stop-opacity="0.62445"/>
+      <stop offset="0.5551" stop-color="#fc0" stop-opacity="0.3568"/>
+      <stop offset="0.75898" stop-color="#fc0" stop-opacity="0.16356"/>
+      <stop offset="0.91324" stop-color="#fc0" stop-opacity="0.04457"/>
+      <stop offset="1" stop-color="#fc0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <title>mouse</title>
+  <g id="黑底_背景" data-name="黑底/背景">
+    <path d="M41.74785,0A41.74785,41.74785,0,1,0,83.49569,41.74785,41.74784,41.74784,0,0,0,41.74785,0Zm0,60.2004A18.45257,18.45257,0,1,1,60.20043,41.74785,18.45257,18.45257,0,0,1,41.74785,60.2004Z" fill="url(#未命名的渐变_21)"/>
+    <circle cx="41.74785" cy="41.74785" r="18.45256" fill="none" stroke="#fc6" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

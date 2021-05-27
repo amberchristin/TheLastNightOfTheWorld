@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Last Night of the World</title>
+    
+    
+    
+ 
+<!--settings for viewing as app-->
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    
+    
+
+<!--ICONS-->
+        <link rel = "icon" href = "img/logo.ico" type = "image/x-icon"> 
+	
+
+    
+ <link rel="stylesheet" href="styles.css" />  
+    
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46168666-1', 'taylorstreetstudio.com');
+  ga('send', 'pageview');
+
+</script>
+    
+    
+    
+    
+</head>
+  
+  
+<body>
+  
+<!--  <div id="loading" style="position:absolute;top:44%;left:48.5%"><img src="img/loading.gif" /></div>-->
+  
+   <header>
+<!--
+       <div id="bgm"></div>
+       <div id="bgm1"></div>
+       <div id="bgm2"></div>
+       <div id="bgm3"></div>
+       <div id="main1"></div>
+       <div id="main2"></div>
+       <div id="train"></div>
+-->
+   </header>
+  
+   <!--进度条-->
+   <nav id="main-nav">
+<!--       <div id="pagecount" class="open">0</div>-->
+	   <progress id="progressbar" class="open" value="0" max="82"></progress>  
+   </nav>
+  
+    <div id="cursor"></div>
+   
+    
+    
+  <!--背景图片-->
+  <div id="bckgrdImage"></div>		
+  		
+      
+  <div class="container-fluid">
+  
+      
+        <!--    进度条旁边的数字-->
+<!--        <div id="pagecount">0</div> -->
+  
+        <div id="end"></div>
+  
+      
+        <div class="start"> 
+            <h3> Tips <h3>
+            <h4> the work includes sound<br>so please <em>adjust the volume</em> </h4>
+        
+
+  </div>
+     
+  </div>
+  
+<audio id="bgm1">
+    <source = src="audio/bgm.mp3" type="audio/mp3">
+</audio>
+<audio id="bgm2">
+    <source = src="audio/bgm2.mp3" type="audio/mp3">
+</audio>
+<audio id="bgm3">
+    <source = src="audio/bgm3.mp3" type="audio/mp3">
+</audio>
+<audio id="P1_1">
+    <source = src="audio/P1_1.mp3" type="audio/mp3">
+</audio>
+<audio id="spoon">
+    <source = src="audio/Spoon_Cup.mp3" type="audio/mp3">
+</audio>
+<audio id="drinking">
+    <source = src="audio/Drinking.mp3" type="audio/mp3">
+</audio>
+<audio id="kids">
+    <source = src="audio/Kids_laugh.mp3" type="audio/mp3">
+</audio>
+<audio id="bomber1">
+    <source = src="audio/bombers_plane.mp3" type="audio/mp3">
+</audio>
+<audio id="bomber2">
+    <source = src="audio/bombers.mp3" type="audio/mp3">
+</audio>
+<audio id="dishes">
+    <source = src="audio/Washing_dishes.mp3" type="audio/mp3">
+</audio>
+<audio id="radio">
+    <source = src="audio/Radio_strong.mp3" type="audio/mp3">
+</audio>
+<audio id="foot">
+    <source = src="audio/Footstep_Wood_floor.mp3" type="audio/mp3">
+</audio>
+<audio id="drip">
+    <source = src="audio/drip_drop.mp3" type="audio/mp3">
+</audio>
+<audio id="light">
+    <source = src="audio/light.mp3" type="audio/mp3">
+</audio>
+<audio id="P6">
+    <source = src="audio/P6.mp3" type="audio/mp3">
+</audio>
+<audio id="tense">
+    <source = src="audio/tense.mp3" type="audio/mp3">
+</audio>
+<audio id="women">
+    <source = src="audio/woman_talking.mp3" type="audio/mp3">
+</audio>
+<audio id="sea">
+    <source = src="audio/sea.mp3" type="audio/mp3">
+</audio>
+<audio id="door">
+    <source = src="audio/door.mp3" type="audio/mp3">
+</audio>
+<audio id="sofa">
+    <source = src="audio/sofa.mp3" type="audio/mp3">
+</audio>
+<audio id="couple">
+    <source = src="audio/couple.mp3" type="audio/mp3">
+</audio>
+            
+  
+    
+  <!--引入部分的文字-->
+  <div id="start">
+  
+    <!--先显示第一段文字-->
+    <div id="linear1" class="linear active"> 
+        <p>"The world should know that we are here. We are doing our best to make the Internet safe for all of them."</p>
+        <p class="tips">press <em> the right arrow key </em> to move forwards 
+       </p>
+    </div>
+    
+    <!--其他隐藏-->
+    <div id="linear2" class="linear hidden">
+     <p> 
+    Content moderators, who decide what content should be allowed to stay on the Internet, and what should be marked as 'disturbing'.
+     </p>
+        <p class="tips">press <em> the right arrow key </em> to move forwards </p>
+    </div>
+    
+    <div id="linear3" class="linear hidden">
+         <p>"The world should know that we are here. We are doing our best to make the Internet safe for all of them."</p>
+        <p class="tips">press <em> the right arrow key </em> to move forwards </p>
+    </div>
+    
+    <div id="linear4" class="linear hidden">
+  		<p>
+   The Wall Street Journal recently described the content moderator as 'the worst job in the US'.
+  	 </p>
+        <p class="tips">press <em> the right arrow key </em> to move forwards </p>
+    </div>
+    
+
+    
+   
+
+  </div> <!-- end start-->
+  
+  
+  <div id="back" class="key">
+        <img src="img/back.svg" />
+  </div>
+   
+  <div id="forward" class="key">
+        <img src="img/forward.svg" />
+  </div>
+
+  	
+  	<div class="row-fluid">
+<!--  		<section >-->
+  		<p id="bgvideo" class="dialogue"></p>
+        <p id="house" class="dialogue"></p>
+        <p id="row1" class="dialogue"></p>
+        <p id="row2" class="dialogue"></p>
+        <p id="row3" class="dialogue"></p>
+        <p id="row4" class="dialogue"></p>
+        <p id="row5" class="dialogue"></p>
+        <p id="row6" class="dialogue"></p>
+        <p id="row7" class="dialogue"></p>
+      
+<!--  		</section>-->
+  	</div>
+  	
+
+
+
+</div> <!--closes container-->
+    
+    <script src="jquery-2.0.3.js"></script>
+    <script src="jquery.touchSwipe.min.js"></script>
+    <script src="jquery.fadeaudio.js"></script>
+    <script src="jqfloat.js"></script>
+    <script src="scripts-desktop.js"></script>
+    <script src="cursor.js"></script>
+    
+
+
+ 
+
+
+  </body>
+</html>
