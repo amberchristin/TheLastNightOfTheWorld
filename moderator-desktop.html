@@ -41,7 +41,7 @@
   
 <body>
   
-<!--  <div id="loading" style="position:absolute;top:44%;left:48.5%"><img src="img/loading.gif" /></div>-->
+  <div id="loading" style="position:absolute;top:44%;left:48.5%"><img src="img/loading.gif" /></div>
   
    <header>
 <!--
@@ -197,6 +197,7 @@
   <div id="forward" class="key">
         <img src="img/forward.svg" />
   </div>
+            
 
   	
   	<div class="row-fluid">
@@ -213,6 +214,25 @@
       
 <!--  		</section>-->
   	</div>
+            
+            <div class="hidden">
+                <img src="house/P5.svg" />
+                <img src="house/P6.svg" />
+                <img src="house/P7.svg" />
+                <img src="house/P8.svg" />
+                <img src="house/P9.svg" />
+                <img src="dialogue/1/P16_1.svg" />
+                <img src="dialogue/3/P12_3.svg" />
+                <img src="dialogue/4/P12_4.svg" />
+                <img src="video/P18.svg" />
+                <video src="video/P11_12.mp4"></video>
+                <video src="video/P13_14.mp4"></video>
+                <video src="video/P15.mp4"></video>
+                <video src="video/P16.mp4"></video>
+                <video src="video/P19.mp4"></video>
+                <video src="video/P20_21.mov"></video>
+                <video src="video/P22.mp4"></video>
+            </div>
   	
 
 
@@ -225,6 +245,17 @@
     <script src="jqfloat.js"></script>
     <script src="scripts-desktop.js"></script>
     <script src="cursor.js"></script>
+      
+      <script>
+$(document).ready(function() {
+
+    $("#loading").delay(10000).fadeOut(function() {
+        $(this).remove(); // Optional if it's going to only be used once.
+    });
+    
+    
+});
+</script>
     
 
 
